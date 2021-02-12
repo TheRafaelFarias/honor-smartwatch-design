@@ -1,7 +1,7 @@
 import React from 'react';
 
-import menu from "./menu.svg"
-import honorLogo from "./honorlogo.svg"
+import menu from "./assets/menu.svg"
+import honorLogo from "./assets/honorlogo.svg"
 
 function App() {
   return (
