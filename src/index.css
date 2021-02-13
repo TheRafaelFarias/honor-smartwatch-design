@@ -1,8 +1,112 @@
-body {
+html, body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+.page {
+  min-height: 100% !important;
+  background-color: #08162B;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.menu > img {
+  width: 2rem;
+  height: 3.4;
+}
+
+.navbutton {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 2rem;
+  margin-right: .3rem;
+}
+
+.navbutton:first-of-type {
+  margin-left: 0rem;
+}
+
+.buybutton {
+  background-color: #F29494;
+  border-radius: .125rem;
+}
+
+.marketing {
+  display: flex;
+  margin: 2.5rem 6rem;
+  align-items: center;
+}
+
+.marketing-title {
+  margin: 0rem;
+  color: white;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.marketing-type {
+  margin: 0rem;
+  color: #EF9C9C;
+  font-size: 1.5rem;
+  letter-spacing: 1rem;
+}
+
+.marketing-description {
+  color: white;
+  width: 25rem;
+  font-size: 1rem;
+}
+
+.watches {
+  display: flex;
+}
+
+.watch {
+  margin: 1rem 2rem;
+  padding-top: 1rem;
+  background-color: #2B3544;
+  border-radius: 3rem;
+}
+
+.watch:first-of-type {
+  margin-left: 0rem;
+}
+
+.watch-type {
+  margin: 0rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.element-word {
+  padding-left: 5rem;
+  color: white;
+  font-weight: 100;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0rem;
+}
+
+.big-watch {
+  display: flex;
+  width: 35rem;
+  height: 35rem;
+  margin-left: auto;
 }
